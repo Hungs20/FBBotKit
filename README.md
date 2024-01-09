@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-npm install fbbotkit
+npm install @hungs20/fbbotkit
 ```
 
 ## Usage

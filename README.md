@@ -4,11 +4,9 @@
   <a href="#" target="_blank">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
   </a>
-  [![Release](https://github.com/Hungs20/FBBotKit/actions/workflows/release-package.yml/badge.svg)](https://github.com/Hungs20/FBBotKit/actions/workflows/release-package.yml)
 </p>
 
 > FBBotKit rewrites the API requests and response models for Facebook Page, aiding developers in the seamless implementation of applications related to the Facebook Page API.
-
 ### 🏠 [Homepage](https://github.com/Hungs20/FBBotKit)
 
 ## Install

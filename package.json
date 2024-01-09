@@ -1,6 +1,6 @@
 {
-  "name": "@Hungs20/fbbotkit",
-  "version": "1.0.0",
+  "name": "@hungs20/fbbotkit",
+  "version": "1.0.1",
   "description": "facebook page bot kit",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

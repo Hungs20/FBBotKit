@@ -1,0 +1,36 @@
+{
+  "name": "fbbotkit",
+  "version": "1.0.0",
+  "description": "facebook page bot kit",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "facebook",
+    "bot",
+    "kit"
+  ],
+  "author": "Chu Hung",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "axios": "^1.6.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

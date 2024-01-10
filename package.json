@@ -21,9 +21,6 @@
     "type": "git",
     "url": "https://github.com/Hungs20/FBBotKit.git"
   },
-  "publishConfig": {
-    "@hungs20:registry": "https://npm.pkg.github.com"
-  },
   "author": "Chu Hung",
   "license": "ISC",
   "dependencies": {

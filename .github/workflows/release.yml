@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -32,7 +35,9 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
+          node-version: '20.x'
           registry-url: 'https://npm.pkg.github.com'
+          scope: '@hungs20'
 
       - name: Public github package
         run: npm publish
